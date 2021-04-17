@@ -1,49 +1,190 @@
 h1 {
-    color:  rgb(247, 252, 229);
-    text-align: center;
+    color: black;
     padding: 0;
-    font-family: 'Anton', Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
-    font-size: 35px;
+    font-family:'Taviraj', serif;
+    font-size: 60px;
+    border-bottom: black solid 5px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    animation-name: destiny;
+    animation-duration: 5s;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+
+}
+h4{
+    letter-spacing: 5px;
+    text-indent: 260px;
+    font-size: 40px;
+    font-family: 'Taviraj', serif;
+    margin: 0%;
+    z-index: 2;
+    //backdrop-filter: blur(10px);
+    border-bottom: black solid 5px;
+    
+}
+@keyframes destiny{
+    from{color: black;}
+    to{ color: rgb(214, 89, 110);}
 }
 h2{
     font-family: 'Pacifico', Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    color:  rgb(247, 252, 229);
+    color:  black;
     font-size: 35px;
+    padding-left: 20%;
+
+
 }
+
 h3{
-    color: white;
-    text-align: center;
-    font-style:italic;
+    color:black;
+    font-family: 'Great Vibes', cursive;
     padding: 0;
-    margin: 10;
+    margin-top: 0;
+    z-index: 2;
+    font-size: 30px;
 }
 
 .header {
-   ../ background-color: rgb(77, 6, 73);
-    border: rgb(236, 245, 196) solid 5px ;
-    margin: 0%;
-    width: 40%;
-    border-radius: 15%;
+    border:rgb(245, 150, 174) solid 5px ;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    width:90%;
+    height: 40%;
+    padding-left: 0%;
+    padding-right: 0%;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+    //border-radius: 80%;
+
 }
+
+}
+.buddah-img{
+    position:relative;
+    float: right;
+}
+
+.flex-info{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
 html, body{
 margin: 0%;
 height: 50%;
 padding: 0%;
-background-color: rgb(247, 252, 229);
+background-color: black;
+background-image: url(assets/falling.jpg);
+background-repeat: no-repeat;
+background-size: 2000px;
+}
 
-}
-img{
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 p{
-    color: black;
-    text-align: center;
+  color:black;
+  border: solid 15px rgb(245, 150, 174); 
+  font-size: 25px;
+  background-color: white;
+  text-align: center;
+  font-family: 'Taviraj', serif;
+  font-weight: bold;
+}
+p::first-letter{
+    color:black;
+    font-size: 70px;
+}
+.container {
     border: black solid 2px;
+    background-color:black;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top:-50px;
+    margin-bottom: 0%;
+    height: 700px;
+    border: black;
+    border-style:solid;
+    border-width: 3px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+    
+
+.card1{
+    color:  rgb(238, 78, 126);
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    background-image: url(assets/meditation-guru.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 270px;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card2{
+    color:  rgb(238, 78, 126);
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+   width: 270px;
+    background-color: white;
+    background-image: url(assets/lotus.png);
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    box-sizing: border-box;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.card3{
+    color:  rgb(238, 78, 126);
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    background-color: white;
+    background-image: url(assets/stones.png);
+    background-repeat: no-repeat;
+    background-size:90px;
+    width: 270px;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    box-sizing: border-box;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
 }
 .link-wrapper{
     display:flex;
@@ -51,23 +192,58 @@ p{
     align-items:center;
 }
 .homepage {
-    background-image: url(/assets/Green-Orchid-Flower-Wallpaper313711.jpg);
-    padding: 100px;
+    background-image: url(assets/cherryblossum.jpg);
+    padding: 50px;
     height: 200px;
+    margin: 0%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 500px;
     background-size: cover;
- }
- a{
-     color: black;
-     text-align: center;
+    border: black;
+    }
 
- }
- .pages{
+a{
      color:black;
      text-align: center;
-     background-color: chartreuse;
- }
+     display:inline-flex;
+     font-size: 22px;
+     justify-content: center;
+
+}
+a:hover{
+    color:rgb(238, 78, 126);
+
+}
 
  
+ footer{
+     color: white;
+     height: 200px;
+    text-align: center;
+ }
+ .contact{
+     font-size: 25px;
+     margin: 40px;
+     display: inline-flex;
+}
+.contact:hover{
+    font-size: 35px;
+}
+ .linkedin{
+     font-size: 25px;
+   display: inline-flex;
+    
+ }
+ .linkedin:hover{
+     font-size: 35px;
+ }
+.github{
+    font-size: 25px;
+    margin: 40px;
+    display: inline-flex;
+}
+.github:hover{
+    font-size: 35px;
+}

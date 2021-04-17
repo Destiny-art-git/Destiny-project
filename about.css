@@ -1,0 +1,37 @@
+html, body{
+    background-color:rgb(253, 150, 167);
+    
+}
+main {
+    color: black;
+}
+h1 {
+    color: black;
+    padding: 0;
+    font-family:'Taviraj', serif;
+    font-size: 60px;
+    border-bottom: black solid 5px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    animation-name: destiny;
+    animation-duration: 5s;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+
+}
+h4{
+    letter-spacing: 5px;
+    text-indent: 240px;
+    font-size: 40px;
+    font-family: 'Taviraj', serif;
+    margin: 0%;
+    z-index: 2;
+    //backdrop-filter: blur(10px);
+    border-bottom: black solid 5px;
+    
+}
+@keyframes destiny{
+    from{color: black;}
+    to{ color: rgb(214, 89, 110);}
+}
