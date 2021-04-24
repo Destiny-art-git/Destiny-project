@@ -15,12 +15,11 @@ h1 {
 }
 h4{
     letter-spacing: 5px;
-    text-indent: 260px;
+    text-indent: 290px;
     font-size: 40px;
     font-family: 'Taviraj', serif;
     margin: 0%;
     z-index: 2;
-    //backdrop-filter: blur(10px);
     border-bottom: black solid 5px;
     
 }
@@ -59,7 +58,7 @@ h3{
     padding-right: 0%;
     z-index: 2;
     backdrop-filter: blur(10px);
-    //border-radius: 80%;
+
 
 }
 
@@ -97,6 +96,7 @@ p{
 p::first-letter{
     color:black;
     font-size: 70px;
+    line-height: 70px;
 }
 .container {
     border: black solid 2px;
@@ -231,14 +231,17 @@ a:hover{
 .contact:hover{
     font-size: 35px;
 }
+.contact-img{
+    color: white;
+}
  .linkedin{
      font-size: 25px;
    display: inline-flex;
     
- }
+ } 
  .linkedin:hover{
      font-size: 35px;
- }
+ } 
 .github{
     font-size: 25px;
     margin: 40px;
@@ -246,4 +249,29 @@ a:hover{
 }
 .github:hover{
     font-size: 35px;
-}
+} 
+/* .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+.dropdown{
+    position: relative;
+    display: inline-block;
+} */
+/* .dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  } */
